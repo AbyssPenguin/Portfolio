@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigel Ang | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7163a5f11c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo - B&W.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class=project-nav-dropdown>
+                        <a href="#" class="dropbtn">Project</a>
+                        <div class="dropdown-content">
+                            <a href="Project1.html">2D Artworks</a>
+                            <a href="Project2.html">Figma</a>
+                            <a href="Project3.html">Unity VR Escape Room</a>
+                            <a href="Project4.html">Android Mobile Apps</a>
+                            <a href="Project5.html">React Travel App</a>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Nigel Ang</span><br> from Republic Polytechnic</h1>
+            </div>
+        </div>
+    </div>
+    <!----------- About Page ----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Nigel, a student at Republic Polytechnic, currently pursuing a Diploma in Digital
+                        Design and Development. Driven by my goal of becoming a skilled software developer, I am always
+                        seeking opportunities to expand my knowledge and apply my skills in real-world settings.
+                        <br><br>
+                        With a strong interest in both design and development, I'm committed to creating meaningful
+                        digital
+                        experiences and continually advancing in the field.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Oct 2022 - Feb 2023</span>
+                                <br>ComfortDelGro<br>
+                                IT Helpdesk Intern
+                            </li>
+
+                            <li><span>Jan 2022 - Mar 2022</span>
+                                <br>Rayton Solutions<br>
+                                Contact IT Team Lead Staff
+                            </li>
+
+                            <li><span>Jan 2021 - June 2021</span>
+                                <br>NCS Pte Ltd<br>
+                                Enterprise Data & Managed Service Department Intern
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Expected completion data: Apr 2026</span>
+                                <br>Republic Polytechnic<br>
+                                Digital Design and Development
+                            </li>
+
+                            <li><span>2021 - 2022</span>
+                                <br>Institute of Technical Education - College West<br>
+                                Higher Nitec in Cyber & Network Security
+                            </li>
+
+                            <li><span>2020 - 2022</span>
+                                <br>Institute of Technical Education - College West<br>
+                                Nitec in Infocomm Technology
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------- Project Page ----------->
+    <div id="project">
+        <!-- 1st row of 2 -->
+        <div class="container">
+            <h1 ckass="sub-title">Design Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/FOD logo Icon.png">
+                    <div class="layer">
+                        <h3>2D Artwork Designs</h3>
+                        <p>Designs created to showcase my growing proficiency in crafting visually engaging and
+                            user-friendly digital creations. These works were made using tools like Illustrator and
+                            Photoshop</p>
+                        <a href="Project1.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/Figma Logo Icon.png">
+                    <div class="layer">
+                        <h3>Figma Work</h3>
+                        <p>Introducing Goblet & Grub, a medieval and fantasy-themed restaurant wireframe designed with
+                            Figma to create a truly immersive dining experience.
+                            With a user-friendly interface, the app brings the magic of medieval dining to your
+                            fingertips.
+                        </p>
+                        <a href="Project2.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd row of 2 -->
+        <div class="container">
+            <h1 ckass="sub-title">Programming Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/VR logo icon.png">
+                    <div class="layer">
+                        <h3>Unity VR Escape Room</h3>
+                        <p>Escape the Iron Maiden is a VR escape room game developed using Unity. Leveraging Unity's
+                            powerful engine, the game immerses players in a medieval environment where they solve
+                            puzzles to escape the iron maiden.</p>
+                        <a href="Project3.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/MobileAppLogo.jpeg">
+                    <div class="layer">
+                        <h3>Android Mobile Apps</h3>
+                        <p>In my mobile app development module, I worked on building user-friendly
+                            interfaces projects. These projects allowed me to showcase my creativity and technical
+                            skills,
+                            delivering innovative and functional applications.
+                        </p>
+                        <a href="Project4.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/TravelAppLogo.jpeg">
+                    <div class="layer">
+                        <h3>React Travel App</h3>
+                        <p>A React Travel List App is a user-friendly tool designed to help travelers organize and
+                            manage their packing lists efficiently.
+                        </p>
+                        <a href="Project5.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <br>
+        </div>
+    </div>
+
+    <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+    </div>
+
+
+
+    <!----------- Contact Page ----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>nigelang2534@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>92317731</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/AbyssPenguin"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nigel-ang-29969b29b"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="documents/Nigel Ang's Resume.docx" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contanct-right">
+                    <form name="contact-me">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Nigel. Made with by <i class="fas fa-heart"></i> Easy Tutorials @ YouTube</p>
+
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzHVE2YQihYgrILg1IPMhO2AT6RaL5pyivK07yHVBtVYM3Y23zcNfr9PBbk0pv8NGfzdg/exec'
+            const form = document.forms['contact-me']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+</body>
+
+</html>
